@@ -198,8 +198,18 @@
   align-items: center;
   font-size: 0.8rem;
   color: #eee;
+  text-decoration: none;
 }
 
+.lower-footer .right-part a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.lower-footer .right-part a:visited {
+  color: #eee;
+  text-decoration: none;
+}
 .lower-footer .right-part i {
   color: #fff;
   background-color: var(--main-color);
