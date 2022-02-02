@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * {
@@ -18,10 +17,11 @@
 
 .nav-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  gap: 4.2rem;
   width: 60%;
-  font-weight: bolder;
-  font-size: 1.2em;
+  font-weight: bold;
+  font-size: 1rem;
 }
 .item:hover {
   color: #e93314;
@@ -35,51 +35,52 @@
   background-image: url(images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
-.main-content{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.507);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.main-content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main-content h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
-.organize{
-    width: 80%;
-    height: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.organize {
+  width: 80%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.main button{
-    width: 150px;
-    height: 60px;
-    background-color: #e93314;
-    border: none;
-    border-radius: 2px;
-    color: #fff;
-    font-size: 1.2em;
-    transition: all 0.2s ease-in-out;
-    
+.main button {
+  width: 150px;
+  height: 60px;
+  background-color: #e93314;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 1.2em;
+  transition: all 0.2s ease-in-out;
 }
-.main button:focus{
-    outline: none;
+.main button:focus {
+  outline: none;
 }
-.main button:hover{
-    cursor: pointer;
-    background-color: #c52f15;
+.main button:hover {
+  cursor: pointer;
+  background-color: #c52f15;
 }
 
-.news-auth{
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
+.news-auth {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  color: #e93314;
 }
