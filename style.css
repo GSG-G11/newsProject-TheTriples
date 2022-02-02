@@ -225,3 +225,34 @@
   font-size: 0.8rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 796px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .subscribe-part .subscribe-input {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  html {
+    font-size: 50%;
+  }
+
+  .top-footer {
+    flex-wrap: wrap-reverse;
+  }
+
+  .subscribe-part {
+    flex: 1;
+    flex-basis: 75%;
+  }
+
+  .lower-footer {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}
