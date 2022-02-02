@@ -77,6 +77,17 @@ html {
 }
 .main-content h1 {
   font-size: 3em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-content h1:hover {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.main-content h3 {
+  color: #aaa;
 }
 
 .organize {
@@ -108,11 +119,12 @@ html {
   width: 20%;
   display: flex;
   justify-content: space-between;
+  color: #aaa;
 }
 
 .news-auth p i {
   font-size: 1.2rem;
-  color: #fff;
+  color: #aaa;
   margin-right: 0.5rem;
 }
 
