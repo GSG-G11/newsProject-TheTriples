@@ -4,6 +4,7 @@
 
 - [About Triples News](#about)
 - [Features](#features)
+- [User Journey](#user-journey)
 - [Live Website](#live)
 - [About Us](#about-us)
 
@@ -52,6 +53,19 @@ We are ~~Venom~~ **Triples News**.
 - Comments Section.
 - Responsive design.
 - International language support.
+
+## User Journey <span id="user-journey"></span>
+
+
+- The user will catch up to the latest news as soon as he visits the website.
+- The user will be able to navigate through sections he would like to visit by clicking on the desired section in the navbar.
+- The user can see the latest and trending articles on the side of the page.
+- The user will be able to get to know more about specific news by clicking on it.
+- The user will be taken to the desired news page.
+- The user can add his comments about those news in the comment section part.
+- The user can browse our website using any device, anywhere.
+
+
 
 ## Live Website <span id="live"></span>
 
