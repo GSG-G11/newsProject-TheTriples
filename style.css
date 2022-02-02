@@ -26,7 +26,7 @@ html {
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 .nav-bar img {
@@ -648,7 +648,9 @@ html {
 .popular-tag {
   margin-top: 20px;
 }
-
+.tags{
+  display: flex;
+}
 .tags-title {
   font-weight: 900;
   font-size: 18px;
@@ -705,12 +707,39 @@ html {
     flex-direction: column;
     gap: 1.2rem;
   }
-
+  .nav-bar img{
+    width: 6rem;  
+  }
   .fa-solid.fa-bars {
     display: block;
     color: var(--main-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
+}
+.tags{
+  height: 100px;
+}
+
+@media screen and (max-width: 796px) {
+  .news-img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .quote{
+    overflow: scroll;
+  }
+  .post-author {
+    font-size: 0.8rem;
+    overflow: scroll;
+  }
+  .related-title{
+    font-size: 1rem ;
+  }
+  /* .center{
+    overflow: scroll;
+  } */
 }
 
 @media screen and (max-width: 415px) {
@@ -737,5 +766,13 @@ html {
   }
   .news-card .news-img {
     width: 100%;
+  }
+
+  .category{
+    width: 50%;
+    padding: 5px 0px;
+  }
+  .post{
+    height: 250px;
   }
 }
