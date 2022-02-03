@@ -136,14 +136,15 @@
 
 /* ------- Quote div Style ------- */
 
-.quote{
-  height: 150px;
-  background-color: #dddbdb88;
-  width: 65%;
-  margin: 20px auto;
-  border-radius: 10px;
-  border-left: 10px solid var(--main-color);
+.quote {
+    height: 150px;
+    background-color: #dddbdb88;
+    width: 65%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-left: 10px solid var(--main-color);
 }
+
 .post-author {
     height: 150px;
     background-color: #dddbdb88;
@@ -152,14 +153,13 @@
     border-radius: 10px;
     border-left: 10px solid var(--main-color);
     display: flex;
-    
 }
 
 .para-quote {
     font-size: 12px;
     line-height: 24px;
-    padding-bottom: 10px;
-    text-align: left;
+    text-align: justify;
+    padding: 10px 15px;
 }
 
 
@@ -180,23 +180,23 @@
 }
 
 .tags {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
     width: 80%;
-   height: 300px;
+    height: 300px;
     margin: 30px auto;
 }
-.tags-tag{
-  display: flex;
-  flex-direction: row;
-  height: 40px;
 
+.tags-tag {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
 }
+
 .tag {
     text-align: center;
     background-color: var(--secondary-color);
     transition: all 0 3s ease-in-out;
-    
 }
 
 .tag:hover {
@@ -339,15 +339,6 @@
     width: 80px;
     height: 80px;
 }
-
-
-/* .comm-img2 {
-  top: 270px;
-}
-
-.comm-img3 {
-  top: 530px;
-} */
 
 .comm-img1 img,
 .comm-img2 img,
@@ -492,4 +483,40 @@
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 796px) {
+    .news-img {
+        width: 90%;
+        object-fit: cover;
+    }
+    .para-quote {
+        padding: 0 18px 10px 10px;
+    }
+    .dots1,
+    .dots2,
+    .dots3 {
+        display: none;
+    }
+
+ 
+}
+
+@media screen and (max-width: 425px) {
+    .category {
+        width: 50%;
+        padding: 5px 0px;
+    }
+    .post {
+        height: 250px;
+    }
+    .related-post{
+        flex-direction: column;
+    }
+    .related-post img {
+        width: 65%;
+    }
+    .post .category {
+        width: 25%;
+    }
 }
